@@ -6,11 +6,11 @@
  **/
 
 import rollupTypescript from 'rollup-plugin-typescript2'
-import babel from 'rollup-plugin-babel';
+import babel from '@rollup/plugin-babel';
 
 export default {
-  // input: 'src/index.ts',
   input: 'src/iii.js',
+  // input: 'src/index.ts',
   output: {
     file: 'dist/bundle.js',
     format: 'esm'
@@ -18,8 +18,7 @@ export default {
   plugins: [
     rollupTypescript(),
     babel({
-      exclude: 'node_modules/**',
-      runtimeHelpers: true
+      babelHelpers: 'runtime'
     })
   ]
 }

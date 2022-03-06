@@ -12,4 +12,8 @@ const evenNo = getEvenNo([3, 5, 12, 9, 17, 28, 4])
 
 namelog()
 
+const obj = { name: 'Yubble' }
+
+console.log('找到 obj 中的name is ', Reflect.get(obj, 'name'))
+
 console.log('执行数组找偶, res is ', evenNo)
