@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Yubble/sdk-base#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "echo 12"
+      "pre-commit": "yarn build"
     }
   },
   "lint-staged": {
