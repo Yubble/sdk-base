@@ -16,4 +16,4 @@ const obj = { name: 'Yubble' };
 
 console.log('找到 obj 中的name is ', Reflect.get(obj, 'name'));
 
-console.log('执行数组找偶, res is ', evenNo);
+console.log('执行数组找3偶, res is ', evenNo);

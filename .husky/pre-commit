@@ -2,5 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # yarn eslint
-echo 0
-# npx lint-staged
+# echo 0
+npx lint-staged
