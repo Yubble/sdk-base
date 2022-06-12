@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Yubble/sdk-base#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "echo 111"
     }
   },
   "lint-staged": {
