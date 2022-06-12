@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-# yarn fix
-echo 0
+yarn fix
+# echo 0

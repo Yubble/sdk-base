@@ -6,11 +6,11 @@
  */
 import { module1, getEvenNo } from './module1';
 
-const namelog = void module1("Yubble");
+const namelog = void module1('Yubble');
 
 const evenNo = getEvenNo([3, 5, 12, 9, 17, 28, 4]);
 
-namelog();
+// namelog()
 
 const obj = { name: 'Yubble' };
 

@@ -11,7 +11,7 @@
  * @Date: 2021-10-31 12:07:41
  */
 let module1 = function (name) {
-  console.log("name is ", name);
+  console.log('name is ', name);
 };
 let getEvenNo = function (arr) {
   return arr.map(function (el) {
