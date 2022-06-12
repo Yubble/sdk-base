@@ -5,7 +5,7 @@
  * @Date: 2021-10-31 12:07:41
  */
 export const module1 = name => {
-  console.log('name is ', name);
+  console.log("name is ", name);
 };
 
 export const getEvenNo = (arr: Array<number>) => {
