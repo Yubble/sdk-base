@@ -19,11 +19,6 @@
     "url": "https://github.com/Yubble/sdk-base/issues"
   },
   "homepage": "https://github.com/Yubble/sdk-base#readme",
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn build"
-    }
-  },
   "lint-staged": {
     "*.ts": "echo 234"
   },
