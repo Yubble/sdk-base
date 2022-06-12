@@ -10,7 +10,7 @@ const namelog = void module1('Yubble')
 
 const evenNo = getEvenNo([3, 5, 12, 9, 17, 28, 4])
 
-namelog()
+namelog()s
 
 const obj = { name: 'Yubble' }
 
